@@ -1,15 +1,27 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
+    <script src='https://www.hCaptcha.com/1/api.js' async defer></script>
     <meta charset="utf-8">
-    <<script src="script/script.js">
+    <script src="script/script.js">
 
     </script>
     <title>Live Test</title>
   </head>
   <body>
-    <h1>Welcome to Live Test</h1>
+    <h1>Online Test System</h1>
     <h2></h2>
+
+    <form class="" action="index.html" method="post">
+      <fieldset >
+        <legend>Enter test details</legend>
+        Enter test code: <input type="number" id="test-code" value=""><br><br>
+        Enter your name: <input type="text" id="test-name" value=""><br><br>
+        <div class="h-captcha" data-sitekey="f393827e-a455-46ad-a405-c9deddf3d379"></div>
+
+      </fieldset>
+
+    </form>
 
   </body>
 </html>
